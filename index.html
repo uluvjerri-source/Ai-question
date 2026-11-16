@@ -33,7 +33,10 @@
  .robot-head{left:20px}
  .robot-body{left:37px}
  .robot-sign{left:-52px;right:auto;top:108px;width:68px;height:74px;font-size:47px}
-}</style>
+}
+/* Tilt the peeking robot's head sideways by 90 degrees. */
+.robot-head{transform:rotate(90deg);transform-origin:center center}
+@media(max-width:650px){.robot-head{transform:rotate(90deg);transform-origin:center center}}</style>
 </head>
 <body>
 <section class="menu-screen" id="menu-screen">
